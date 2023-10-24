@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.hero{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background:lightblue;
+}
+.body{
+  width: 300px;
+  height: 300px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 30px 45px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+ul li a:hover{
+  color:white;
+}
+.detail{
+ position: relative;
+ left: 8%;
+ top: 30%;
+}
+.detail h1{
+  font-size: 50px;
+  color: #212121;
+  position: relative;
+  bottom: 30px;
+}
+.button{
+  position: relative;
+  top: 30px;
+  background-color: blue;
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.button:hover{
+  background-color: black;
+  color: white;
+}
+
+.detail p{
+  color: #555;
+  line-height: 22px;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+input[type=number], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+input[type=email], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+.kalai{
+      
+  position: relative;
+ left: 750px;
+  border-radius: 75px;
+  
+}
+
+
+.container {
+  margin-top: 45px;
+  margin-left: 500px;
+ 
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+width: 400px;
+}
+.portfolio{
+position: relative;
+left: 500px;
+top: 40px;
+width: 350px;
+}
+* {box-sizing: border-box}
+.box{
+  position: relative;
+  left: 300px;
+  top: 20px;
+}
+
+.containerbox {
+ 
+width: 50%;
+height: 60px;
+background-color: #ddd;
+margin-top: 40px;
+}
+.box1{
+position: relative;
+top: 30px;
+}
+.skills {
+text-align: right;
+padding-top: 15px;
+padding-bottom: 28px;
+color: white;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.Figma {width: 80%; background-color: #f44336;}
+.Python {width: 60%; background-color: #808080;}
